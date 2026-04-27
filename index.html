@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tera-Link Style Starter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="card">
+        <h1 id="name"></h1>
+        <p id="bio"></p>
+        <div id="links" class="links"></div>
+      </section>
+
+      <section class="editor card">
+        <h2>Edit page</h2>
+        <label>
+          Name
+          <input id="nameInput" type="text" placeholder="Your name" />
+        </label>
+        <label>
+          Bio
+          <input id="bioInput" type="text" placeholder="A short bio" />
+        </label>
+        <div class="add-link">
+          <input id="linkLabel" type="text" placeholder="Link label" />
+          <input id="linkUrl" type="url" placeholder="https://example.com" />
+          <button id="addBtn" type="button">Add link</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
