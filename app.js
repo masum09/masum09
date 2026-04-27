@@ -1,6 +1,6 @@
 const defaultState = {
-  name: "Your Name",
-  bio: "One page for all your links.",
+  name: "MASUM",
+  bio: "abcd",
   links: [
     { label: "GitHub", url: "https://github.com" },
     { label: "Portfolio", url: "https://example.com" }
